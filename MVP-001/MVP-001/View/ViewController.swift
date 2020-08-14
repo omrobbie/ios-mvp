@@ -10,7 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblDescription: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    @IBAction func btnRedTapped(_ sender: Any) {
+    }
+
+    @IBAction func btnYellowTapped(_ sender: Any) {
+    }
+
+    @IBAction func btnGreenTapped(_ sender: Any) {
     }
 }
