@@ -15,6 +15,7 @@
 		FC10A96724E62DC90060B982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC10A96524E62DC90060B982 /* LaunchScreen.storyboard */; };
 		FC10A97224E62E5D0060B982 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10A97124E62E5D0060B982 /* TrafficLight.swift */; };
 		FC10A97524E62EA90060B982 /* TrafficLightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10A97424E62EA90060B982 /* TrafficLightService.swift */; };
+		FC10A97724E62FE70060B982 /* TrafficLightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC10A97624E62FE70060B982 /* TrafficLightPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FC10A96824E62DC90060B982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC10A97124E62E5D0060B982 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 		FC10A97424E62EA90060B982 /* TrafficLightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightService.swift; sourceTree = "<group>"; };
+		FC10A97624E62FE70060B982 /* TrafficLightPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		FC10A96E24E62E190060B982 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				FC10A97624E62FE70060B982 /* TrafficLightPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				FC10A97224E62E5D0060B982 /* TrafficLight.swift in Sources */,
 				FC10A95F24E62DC80060B982 /* ViewController.swift in Sources */,
 				FC10A97524E62EA90060B982 /* TrafficLightService.swift in Sources */,
+				FC10A97724E62FE70060B982 /* TrafficLightPresenter.swift in Sources */,
 				FC10A95B24E62DC80060B982 /* AppDelegate.swift in Sources */,
 				FC10A95D24E62DC80060B982 /* SceneDelegate.swift in Sources */,
 			);
